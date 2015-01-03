@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92456EDA1A50394C008D9835 /* LLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92456ED91A50394C008D9835 /* LLManager.m */; };
+		929E66231A5037B700E92006 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 929E66221A5037B700E92006 /* AppDelegate.m */; };
+		929E66251A5037B700E92006 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 929E66241A5037B700E92006 /* main.m */; };
+		929E66271A5037B700E92006 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929E66261A5037B700E92006 /* Images.xcassets */; };
+		929E662A1A5037B700E92006 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 929E66281A5037B700E92006 /* MainMenu.xib */; };
+		92C173B71A520F4E00D02C26 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C173B61A520F4E00D02C26 /* AppKit.framework */; };
+		92C304551A520BC800652D48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C304541A520BC800652D48 /* Foundation.framework */; };
+		92C304571A520BCD00652D48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C304561A520BCD00652D48 /* Cocoa.framework */; };
+		92C304591A520BD200652D48 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C304581A520BD200652D48 /* ServiceManagement.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		92456ED71A50394C008D9835 /* LLStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLStrings.h; sourceTree = "<group>"; };
+		92456ED81A50394C008D9835 /* LLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLManager.h; sourceTree = "<group>"; };
+		92456ED91A50394C008D9835 /* LLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLManager.m; sourceTree = "<group>"; };
+		926B8A1B1A51FF3E00F25043 /* HideBarHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HideBarHelper.entitlements; sourceTree = "<group>"; };
+		929E661C1A5037B700E92006 /* HideBarHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideBarHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929E66201A5037B700E92006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929E66211A5037B700E92006 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		929E66221A5037B700E92006 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		929E66241A5037B700E92006 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		929E66261A5037B700E92006 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		929E66291A5037B700E92006 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		92C173B61A520F4E00D02C26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		92C304541A520BC800652D48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92C304561A520BCD00652D48 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		92C304581A520BD200652D48 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929E66191A5037B700E92006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C173B71A520F4E00D02C26 /* AppKit.framework in Frameworks */,
+				92C304591A520BD200652D48 /* ServiceManagement.framework in Frameworks */,
+				92C304571A520BCD00652D48 /* Cocoa.framework in Frameworks */,
+				92C304551A520BC800652D48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929E66131A5037B700E92006 = {
+			isa = PBXGroup;
+			children = (
+				92C173B61A520F4E00D02C26 /* AppKit.framework */,
+				92C304581A520BD200652D48 /* ServiceManagement.framework */,
+				92C304561A520BCD00652D48 /* Cocoa.framework */,
+				92C304541A520BC800652D48 /* Foundation.framework */,
+				929E661E1A5037B700E92006 /* HideBarHelper */,
+				929E661D1A5037B700E92006 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929E661D1A5037B700E92006 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929E661C1A5037B700E92006 /* HideBarHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929E661E1A5037B700E92006 /* HideBarHelper */ = {
+			isa = PBXGroup;
+			children = (
+				926B8A1B1A51FF3E00F25043 /* HideBarHelper.entitlements */,
+				92456ED71A50394C008D9835 /* LLStrings.h */,
+				92456ED81A50394C008D9835 /* LLManager.h */,
+				92456ED91A50394C008D9835 /* LLManager.m */,
+				929E66211A5037B700E92006 /* AppDelegate.h */,
+				929E66221A5037B700E92006 /* AppDelegate.m */,
+				929E66261A5037B700E92006 /* Images.xcassets */,
+				929E66281A5037B700E92006 /* MainMenu.xib */,
+				929E661F1A5037B700E92006 /* Supporting Files */,
+			);
+			path = HideBarHelper;
+			sourceTree = "<group>";
+		};
+		929E661F1A5037B700E92006 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				929E66201A5037B700E92006 /* Info.plist */,
+				929E66241A5037B700E92006 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929E661B1A5037B700E92006 /* HideBarHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929E66391A5037B800E92006 /* Build configuration list for PBXNativeTarget "HideBarHelper" */;
+			buildPhases = (
+				929E66181A5037B700E92006 /* Sources */,
+				929E66191A5037B700E92006 /* Frameworks */,
+				929E661A1A5037B700E92006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideBarHelper;
+			productName = HideBarHelper;
+			productReference = 929E661C1A5037B700E92006 /* HideBarHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929E66141A5037B700E92006 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Charles Aroutiounian";
+				TargetAttributes = {
+					929E661B1A5037B700E92006 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = UKRL895MC4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 929E66171A5037B700E92006 /* Build configuration list for PBXProject "HideBarHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929E66131A5037B700E92006;
+			productRefGroup = 929E661D1A5037B700E92006 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929E661B1A5037B700E92006 /* HideBarHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929E661A1A5037B700E92006 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929E66271A5037B700E92006 /* Images.xcassets in Resources */,
+				929E662A1A5037B700E92006 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929E66181A5037B700E92006 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92456EDA1A50394C008D9835 /* LLManager.m in Sources */,
+				929E66251A5037B700E92006 /* main.m in Sources */,
+				929E66231A5037B700E92006 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		929E66281A5037B700E92006 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929E66291A5037B700E92006 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929E66371A5037B800E92006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "2abf5b41-ef0c-4c37-895a-ae3b1743bf15";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		929E66381A5037B800E92006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "2abf5b41-ef0c-4c37-895a-ae3b1743bf15";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		929E663A1A5037B800E92006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideBarHelper/HideBarHelper.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideBarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		929E663B1A5037B800E92006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideBarHelper/HideBarHelper.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HideBarHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929E66171A5037B700E92006 /* Build configuration list for PBXProject "HideBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E66371A5037B800E92006 /* Debug */,
+				929E66381A5037B800E92006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929E66391A5037B800E92006 /* Build configuration list for PBXNativeTarget "HideBarHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929E663A1A5037B800E92006 /* Debug */,
+				929E663B1A5037B800E92006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929E66141A5037B700E92006 /* Project object */;
+}

@@ -12,7 +12,7 @@
 
 {
     BOOL shown;
-    
+
 }
 
 - (void)statusItemClick:(id)sender;

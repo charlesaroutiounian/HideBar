@@ -11,18 +11,44 @@
 		92C068011A52019200655DC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C068001A52019200655DC4 /* main.m */; };
 		92C068031A52019200655DC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92C068021A52019200655DC4 /* Images.xcassets */; };
 		92C068061A52019200655DC4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C068041A52019200655DC4 /* MainMenu.xib */; };
-		92C068121A52019200655DC4 /* HideBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C068111A52019200655DC4 /* HideBarTests.m */; };
+		92C0681C1A5201D800655DC4 /* appicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 92C0681B1A5201D800655DC4 /* appicon.icns */; };
+		92C068211A52023D00655DC4 /* getstate.sh in Resources */ = {isa = PBXBuildFile; fileRef = 92C0681E1A52023D00655DC4 /* getstate.sh */; };
+		92C068221A52023D00655DC4 /* off.sh in Resources */ = {isa = PBXBuildFile; fileRef = 92C0681F1A52023D00655DC4 /* off.sh */; };
+		92C068231A52023D00655DC4 /* on.sh in Resources */ = {isa = PBXBuildFile; fileRef = 92C068201A52023D00655DC4 /* on.sh */; };
+		92C0682D1A52024B00655DC4 /* LLManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C068261A52024B00655DC4 /* LLManager.m */; };
+		92C0682E1A52024B00655DC4 /* eyeoff.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C068271A52024B00655DC4 /* eyeoff.png */; };
+		92C0682F1A52024B00655DC4 /* eyeoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C068281A52024B00655DC4 /* eyeoff@2x.png */; };
+		92C068301A52024B00655DC4 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C068291A52024B00655DC4 /* eye.png */; };
+		92C068311A52024B00655DC4 /* eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C0682A1A52024B00655DC4 /* eye@2x.png */; };
+		92C068321A52024B00655DC4 /* eye_w.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C0682B1A52024B00655DC4 /* eye_w.png */; };
+		92C068331A52024B00655DC4 /* eye_w@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92C0682C1A52024B00655DC4 /* eye_w@2x.png */; };
+		92C173B91A520F5A00D02C26 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C173B81A520F5A00D02C26 /* AppKit.framework */; };
+		92C3045B1A520BF100652D48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3045A1A520BF100652D48 /* Foundation.framework */; };
+		92C3045E1A520BF600652D48 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3045D1A520BF600652D48 /* Cocoa.framework */; };
+		92C304601A520BFB00652D48 /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92C3045F1A520BFB00652D48 /* ServiceManagement.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		92C0680C1A52019200655DC4 /* PBXContainerItemProxy */ = {
+		92CF7E5E1A58772000246118 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 92C067F01A52019200655DC4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 92C067F71A52019200655DC4;
-			remoteInfo = HideBar;
+			containerPortal = 92CF7E5A1A58772000246118 /* HideBarHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 929E661C1A5037B700E92006;
+			remoteInfo = HideBarHelper;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9277C5B21A52045F008BB3B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		92C067F81A52019200655DC4 /* HideBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,9 +58,25 @@
 		92C068001A52019200655DC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		92C068021A52019200655DC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		92C068051A52019200655DC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		92C0680B1A52019200655DC4 /* HideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		92C068101A52019200655DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92C068111A52019200655DC4 /* HideBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HideBarTests.m; sourceTree = "<group>"; };
+		92C0681B1A5201D800655DC4 /* appicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = appicon.icns; sourceTree = "<group>"; };
+		92C0681E1A52023D00655DC4 /* getstate.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = getstate.sh; sourceTree = "<group>"; };
+		92C0681F1A52023D00655DC4 /* off.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = off.sh; sourceTree = "<group>"; };
+		92C068201A52023D00655DC4 /* on.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = on.sh; sourceTree = "<group>"; };
+		92C068241A52024B00655DC4 /* LLStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLStrings.h; sourceTree = "<group>"; };
+		92C068251A52024B00655DC4 /* LLManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLManager.h; sourceTree = "<group>"; };
+		92C068261A52024B00655DC4 /* LLManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLManager.m; sourceTree = "<group>"; };
+		92C068271A52024B00655DC4 /* eyeoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eyeoff.png; sourceTree = "<group>"; };
+		92C068281A52024B00655DC4 /* eyeoff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eyeoff@2x.png"; sourceTree = "<group>"; };
+		92C068291A52024B00655DC4 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		92C0682A1A52024B00655DC4 /* eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye@2x.png"; sourceTree = "<group>"; };
+		92C0682B1A52024B00655DC4 /* eye_w.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye_w.png; sourceTree = "<group>"; };
+		92C0682C1A52024B00655DC4 /* eye_w@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye_w@2x.png"; sourceTree = "<group>"; };
+		92C068341A52027E00655DC4 /* HideBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HideBar.entitlements; sourceTree = "<group>"; };
+		92C173B81A520F5A00D02C26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		92C3045A1A520BF100652D48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		92C3045D1A520BF600652D48 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		92C3045F1A520BFB00652D48 /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		92CF7E5A1A58772000246118 /* HideBarHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = HideBarHelper.xcodeproj; path = HideBarHelper/HideBarHelper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,13 +84,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92C068081A52019200655DC4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				92C173B91A520F5A00D02C26 /* AppKit.framework in Frameworks */,
+				92C304601A520BFB00652D48 /* ServiceManagement.framework in Frameworks */,
+				92C3045E1A520BF600652D48 /* Cocoa.framework in Frameworks */,
+				92C3045B1A520BF100652D48 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +97,10 @@
 		92C067EF1A52019200655DC4 = {
 			isa = PBXGroup;
 			children = (
+				92CF7E5A1A58772000246118 /* HideBarHelper.xcodeproj */,
+				92C0681D1A52023D00655DC4 /* Scripts */,
+				92C0681B1A5201D800655DC4 /* appicon.icns */,
 				92C067FA1A52019200655DC4 /* HideBar */,
-				92C0680E1A52019200655DC4 /* HideBarTests */,
 				92C067F91A52019200655DC4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				92C067F81A52019200655DC4 /* HideBar.app */,
-				92C0680B1A52019200655DC4 /* HideBarTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,10 +116,20 @@
 		92C067FA1A52019200655DC4 /* HideBar */ = {
 			isa = PBXGroup;
 			children = (
+				92C068341A52027E00655DC4 /* HideBar.entitlements */,
 				92C067FD1A52019200655DC4 /* AppDelegate.h */,
 				92C067FE1A52019200655DC4 /* AppDelegate.m */,
 				92C068021A52019200655DC4 /* Images.xcassets */,
 				92C068041A52019200655DC4 /* MainMenu.xib */,
+				92C068241A52024B00655DC4 /* LLStrings.h */,
+				92C068251A52024B00655DC4 /* LLManager.h */,
+				92C068261A52024B00655DC4 /* LLManager.m */,
+				92C068271A52024B00655DC4 /* eyeoff.png */,
+				92C068281A52024B00655DC4 /* eyeoff@2x.png */,
+				92C068291A52024B00655DC4 /* eye.png */,
+				92C0682A1A52024B00655DC4 /* eye@2x.png */,
+				92C0682B1A52024B00655DC4 /* eye_w.png */,
+				92C0682C1A52024B00655DC4 /* eye_w@2x.png */,
 				92C067FB1A52019200655DC4 /* Supporting Files */,
 			);
 			path = HideBar;
@@ -88,27 +138,32 @@
 		92C067FB1A52019200655DC4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				92C173B81A520F5A00D02C26 /* AppKit.framework */,
+				92C3045F1A520BFB00652D48 /* ServiceManagement.framework */,
+				92C3045D1A520BF600652D48 /* Cocoa.framework */,
+				92C3045A1A520BF100652D48 /* Foundation.framework */,
 				92C067FC1A52019200655DC4 /* Info.plist */,
 				92C068001A52019200655DC4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		92C0680E1A52019200655DC4 /* HideBarTests */ = {
+		92C0681D1A52023D00655DC4 /* Scripts */ = {
 			isa = PBXGroup;
 			children = (
-				92C068111A52019200655DC4 /* HideBarTests.m */,
-				92C0680F1A52019200655DC4 /* Supporting Files */,
+				92C0681E1A52023D00655DC4 /* getstate.sh */,
+				92C0681F1A52023D00655DC4 /* off.sh */,
+				92C068201A52023D00655DC4 /* on.sh */,
 			);
-			path = HideBarTests;
+			path = Scripts;
 			sourceTree = "<group>";
 		};
-		92C0680F1A52019200655DC4 /* Supporting Files */ = {
+		92CF7E5B1A58772000246118 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92C068101A52019200655DC4 /* Info.plist */,
+				92CF7E5F1A58772000246118 /* HideBarHelper.app */,
 			);
-			name = "Supporting Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +176,7 @@
 				92C067F41A52019200655DC4 /* Sources */,
 				92C067F51A52019200655DC4 /* Frameworks */,
 				92C067F61A52019200655DC4 /* Resources */,
+				9277C5B21A52045F008BB3B5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -130,24 +186,6 @@
 			productName = HideBar;
 			productReference = 92C067F81A52019200655DC4 /* HideBar.app */;
 			productType = "com.apple.product-type.application";
-		};
-		92C0680A1A52019200655DC4 /* HideBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 92C068181A52019200655DC4 /* Build configuration list for PBXNativeTarget "HideBarTests" */;
-			buildPhases = (
-				92C068071A52019200655DC4 /* Sources */,
-				92C068081A52019200655DC4 /* Frameworks */,
-				92C068091A52019200655DC4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				92C0680D1A52019200655DC4 /* PBXTargetDependency */,
-			);
-			name = HideBarTests;
-			productName = HideBarTests;
-			productReference = 92C0680B1A52019200655DC4 /* HideBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -160,10 +198,15 @@
 				TargetAttributes = {
 					92C067F71A52019200655DC4 = {
 						CreatedOnToolsVersion = 6.1;
-					};
-					92C0680A1A52019200655DC4 = {
-						CreatedOnToolsVersion = 6.1;
-						TestTargetID = 92C067F71A52019200655DC4;
+						DevelopmentTeam = UKRL895MC4;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.Mac = {
+								enabled = 1;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -178,28 +221,46 @@
 			mainGroup = 92C067EF1A52019200655DC4;
 			productRefGroup = 92C067F91A52019200655DC4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 92CF7E5B1A58772000246118 /* Products */;
+					ProjectRef = 92CF7E5A1A58772000246118 /* HideBarHelper.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				92C067F71A52019200655DC4 /* HideBar */,
-				92C0680A1A52019200655DC4 /* HideBarTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		92CF7E5F1A58772000246118 /* HideBarHelper.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HideBarHelper.app;
+			remoteRef = 92CF7E5E1A58772000246118 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		92C067F61A52019200655DC4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0682F1A52024B00655DC4 /* eyeoff@2x.png in Resources */,
+				92C068221A52023D00655DC4 /* off.sh in Resources */,
+				92C068331A52024B00655DC4 /* eye_w@2x.png in Resources */,
+				92C0681C1A5201D800655DC4 /* appicon.icns in Resources */,
+				92C068211A52023D00655DC4 /* getstate.sh in Resources */,
+				92C0682E1A52024B00655DC4 /* eyeoff.png in Resources */,
+				92C068231A52023D00655DC4 /* on.sh in Resources */,
+				92C068321A52024B00655DC4 /* eye_w.png in Resources */,
+				92C068311A52024B00655DC4 /* eye@2x.png in Resources */,
+				92C068301A52024B00655DC4 /* eye.png in Resources */,
 				92C068031A52019200655DC4 /* Images.xcassets in Resources */,
 				92C068061A52019200655DC4 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		92C068091A52019200655DC4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,28 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92C0682D1A52024B00655DC4 /* LLManager.m in Sources */,
 				92C068011A52019200655DC4 /* main.m in Sources */,
 				92C067FF1A52019200655DC4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		92C068071A52019200655DC4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				92C068121A52019200655DC4 /* HideBarTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		92C0680D1A52019200655DC4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 92C067F71A52019200655DC4 /* HideBar */;
-			targetProxy = 92C0680C1A52019200655DC4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		92C068041A52019200655DC4 /* MainMenu.xib */ = {
@@ -262,7 +308,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -282,6 +328,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -303,8 +350,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -317,6 +364,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -325,10 +373,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideBar/HideBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HideBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -336,46 +388,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HideBar/HideBar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = HideBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		92C068191A52019200655DC4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HideBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideBar.app/Contents/MacOS/HideBar";
-			};
-			name = Debug;
-		};
-		92C0681A1A52019200655DC4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = HideBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HideBar.app/Contents/MacOS/HideBar";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -398,14 +418,7 @@
 				92C068171A52019200655DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		92C068181A52019200655DC4 /* Build configuration list for PBXNativeTarget "HideBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92C068191A52019200655DC4 /* Debug */,
-				92C0681A1A52019200655DC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
